@@ -1,4 +1,3 @@
-
 const bodyparser = require("../util/bady-parser")
 const writetofile = require("../util/writetofile")
 
@@ -15,12 +14,12 @@ module.exports = async(req,res)=>{
             let index = req.movies.findIndex((movie) =>{
                 return movie.id ===id;
             });
-            if(index ===-1){
+            if(index === -1){
                 res.statusCode =404;
                 res.write(JSON.stringify({title:"Not Found", message : "Movie Not Found"}));
                 res.end();
             }else{
-                req.movies[index] ={id,...body};
+                req.movies[index] ={id, ...body};
                 writetofile(req.movies);
                 res.writeHead(200, {"Content-Type": "application/json"});
                 res.end(JSON.stringify(req.movies[index]));
