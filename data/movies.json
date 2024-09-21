@@ -1,0 +1,37 @@
+[
+    {
+        "id": "67a53e3e-22ad-4d89-9de7-438be529d87b",
+        "title": "Inception",
+        "year": 2010,
+        "genre": "Science Fiction",
+        "rating": 8.8
+    },
+    {
+        "id": "94862fbb-3776-41b3-8915-0d8a992f935e",
+        "title": "The Dark Knight",
+        "year": 2008,
+        "genre": "Action",
+        "rating": 9
+    },
+    {
+        "id": "d07ec5e1-1e56-41ae-a19d-c5f35bfdb6f3",
+        "title": "Interstellar",
+        "year": 2014,
+        "genre": "Adventure",
+        "rating": 8.6
+    },
+    {
+        "id": "31ef5c5b-4198-4170-87bd-2719e1c0c71b",
+        "title": "Interstellar 3",
+        "year": 2017,
+        "genre": "Adventure",
+        "rating": 7.6
+    },
+    {
+        "id": "31e05703-7f50-4db3-af93-5a7a689022e2",
+        "title": "The Dark Knight 3",
+        "year": 2012,
+        "genre": "Action",
+        "rating": 9.2
+    }
+]
